@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="pl.kebapp.byjacob.fows2016.FragmentyGlowne.Prelegenci">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:id="@+id/scroll_agenda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/prelegenci_male_okno">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:animateLayoutChanges="true"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:clickable="false">
+
+            <ImageButton
+                android:id="@+id/button_close_male_prelegenci"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="5dp"
+                android:background="@color/transparent"
+                app:srcCompat="@drawable/ic_stat_name"/>
+
+            <ImageView
+                android:id="@+id/male_okno_zdjecie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button_close_male_prelegenci"
+                android:layout_marginRight="20dp"
+                android:adjustViewBounds="true"
+                android:maxHeight="100dp"
+                android:minHeight="19dp"
+                app:srcCompat="@color/transparent"
+                android:layout_marginLeft="3dp"
+                android:layout_centerHorizontal="true"/>
+
+            <ScrollView
+                android:id="@+id/prelegenci_scroll_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/male_okno_zdjecie"
+                android:layout_margin="3dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_male_okno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.SearchResult.Subtitle"
+                        android:padding="20dp"
+                        android:gravity="center_vertical|center_horizontal"/>
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@color/transparent"
+            android:id="@+id/imageView_close_male_prelegenciL"
+            android:clickable="true"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@color/transparent"
+            android:id="@+id/imageView_close_male_prelegenciG"
+            android:clickable="true"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@color/transparent"
+            android:id="@+id/imageView_close_male_prelegenciP"
+            android:clickable="true"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:srcCompat="@color/transparent"
+            android:id="@+id/imageView_close_male_prelegenciD"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

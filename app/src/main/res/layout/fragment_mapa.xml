@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/background_light"
+              android:orientation="vertical"
+              android:weightSum="1"
+              tools:context="pl.kebapp.byjacob.fows2016.FragmentyGlowne.Mapa">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <com.google.android.gms.maps.MapView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/map2"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/akcje"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textSize="28sp"/>
+
+                <ImageView
+                    android:id="@+id/imageView_pasek_mapa1"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="?attr/colorControlHighlight"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/relativ_open_maps">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:padding="20dp"
+                        android:text="@string/otw_rz_w_googlemaps"
+                        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget"
+                        android:textSize="22sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        app:srcCompat="@drawable/ic_maps"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="@string/adres"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                    android:textSize="28sp"/>
+                <ImageView
+                    android:id="@+id/imageView_pasek_mapa3"
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="?attr/colorControlHighlight"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Budynek D-20\nCentrum Kongresowe Politechniki Wrocławskiej\nJaniszewskiego 8\n50-370 Wrocław"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pasek">#dcd9d9d9</color>
+    <color name="transparent">#00000000</color>
+    <color name="click">#7bd7ff</color>
+    <color name="partner_glowny">#E5E4E2</color>
+    <color name="partner_zloty">#FFD700</color>
+    <color name="partner_srebrny">#C0C0C0</color>
+</resources>

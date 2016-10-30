@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutkonkurs_loga">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/wg"
+            android:id="@+id/imageView23"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="40dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fows"
+            android:id="@+id/imageView22"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/konkurs_odp1"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                android:textSize="18sp"/>
+
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/konkurs_odp2"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/konkurs_odp3"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                android:textSize="18sp"/>
+
+            <Button
+                android:text="Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/konkurs_odp4"
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="Pytanie 1/n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewkonkurs_nrPytania"
+        android:layout_below="@+id/linearLayoutkonkurs_loga"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textSize="24sp"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:text="Pytanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewkonkurs_nrPytania"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textViewkonkurs_pytanie"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:paddingTop="15dp"/>
+
+</RelativeLayout>

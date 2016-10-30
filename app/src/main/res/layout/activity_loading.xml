@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_loading"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="pl.kebapp.byjacob.fows2016.Loading.Loading"
+              android:weightSum="1"
+              android:orientation="vertical">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="android.support.v4.app.ListFragment"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragment_loading"/>
+</RelativeLayout>

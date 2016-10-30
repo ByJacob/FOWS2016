@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FoWS 2016</string>
+    <string name="app_full_name">V Future of Wireless Systems</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa2">Map</string>
+    <string name="piatek">Friday</string>
+    <string name="sobota">Saturday</string>
+    <string name="adres">Address</string>
+    <string name="otw_rz_w_googlemaps">Open in Google Maps</string>
+    <string name="akcje">Actions</string>
+    <string name="sponsorzy">SPONSORS</string>
+    <string name="patroni">PATRONS</string>
+    <string name="przygotowana_przez">Prepared by</string>
+    <string name="menu_agenda">Agenda</string>
+    <string name="menu_prelegenci">Lecturers</string>
+    <string name="menu_sponsorzy_i_patroni">Sponsors and patrons</string>
+    <string name="menu_konkurs">Contest</string>
+    <string name="menu_mapa">Map</string>
+    <string name="menu_o_konferencji">About conference</string>
+    <string name="menu_linki">Links</string>
+    <string name="witamy_news">FoWS 2016: Welcome :)</string>
+    <string name="error_offline">Connection error. Offline mode.</string>
+    <string name="error_brak_plikow">Offline mode cannot be launched. No local files. Launch the application at least once, while being connected to the Internet.</string>
+    <string name="error_title_brak_plikow">No files</string>
+    <string name="error_wyjdz">Exit</string>
+    <string name="error_title_brak_uprawnien">No permission</string>
+    <string name="error_brak_uprawnien">Application requires this permissions for proper working. If you want to use it, turn on permissions in Settings -> Aplications -> FoWS2016 -> Permissions -> Memory or restart the aplication.</string>
+    <string name="okonferencji_1">Future of Wireless Systems conference organized by scientific association Wireless Group in Wroclaw University of Technology Congress Centre is a perfect occassion to be more familiar with issues about newest techniques and systems of wireless connectibility, which was proved during editions in 2010, 2011, 2012 and 2013 by atracting to this event more and more people, not only the students, but also representatives of telecommunication companies and research institutes.</string>
+    <string name="okonferencji_2">Already from the first edition people frequency exceeded the expectation of organizers. In Future of Wireless Systems 2010, 200 students took part in conference. In following editions this number was still rising to the level, that conference transformed into two days event. Interesting element of conference program is student panel, where companies can listen lectures about the most interesting researches, engineering, master and doctoral thesis, made by their potential employees.</string>
+    <string name="okonferencji_3">We try our best to keep improving the quality of our conference, which is a great addition to the telecommunication market and academic resourses. Taking all suggestions of our partners into account and drawing all conclusions from previous years we can assure you, that 5th edition of Future of Wireless Systems will be unique and will stay in your memory for a long time. We heartily invite you all interested for the next edition of Future of Wireless System 2016, which became the important event in calendar of telecommunication events.</string>
+    <string name="okonferencji_fows2010">14 April the main areas, which were talked during the first conference was wireless broadband systems and perspective of implementation of LTE and WiMAX.</string>
+    <string name="okonferencji_fows2011">13-14 April\nDuring this edition topics from previous
+        edition were extended. Also additional topics appeared like multi-antenna MIMO transmission and intelligent antennas.</string>
+    <string name="okonferencji_fows2012">19 April\nIn this edition we focused on trends in future
+        telecommuncation systems like Dynamic Spectrum Access and Cognitive Radio.</string>
+    <string name="okonferencji_fows2013">19 April\nThis conference focused mainly on modern trends
+        and solutions in wireless systems and new solutions (SON) in standards of 3GPP group.</string>
+    <string name="aktualizacja_title">Application out-of-date</string>
+    <string name="aktualizacja_message">Unfortunately you have an outdated version of this application. In order to use its full potential, please update it to the newest version from Google Play.</string>
+    <string name="zapisz">Save</string>
+    <string name="akceptuje">Agree</string>
+    <string name="brak_internetu">No Internet connection</string>
+    <string name="nieakceptuje">Do not agree</string>
+    <string name="rejstracja_mesage1">While registiating, you accept the rules.</string>
+    <string name="imie">Name</string>
+    <string name="nazwisko">Surname</string>
+    <string name="album">E-mail</string>
+    <string name="niewypelnione_pola">In order to register please fill all the missing information.</string>
+    <string name="niekatywnyKonkurs_title">Contest is inactive</string>
+    <string name="nieaktywnyKonkurs_message">Contest is active during the conference only</string>
+    <string name="brakinternetu_message">You have no Internet connection. In order to participate in contest please find Internet access and go to tab "Contest"</string>
+    <string name="zrobiony_title">I\'ve become a participant of the competition</string>
+    <string name="zrobiony_message">This device just participated in this contest. Please wait for the results till the end of conference.</string>
+    <string name="pytanie">Question</string>
+    <string name="dziekujemy_rejstracja">Thanks for registration</string>
+    <string name="nieudana_rejstracja">Unsuccessful registration :C</string>
+    <string name="konkurs_dziekujemy">Thank you for participating in the contest</string>
+    <string name="konkurs_blad">Cannot send an answer. Try again later.</string>
+    <string name="fundatorzy_nagrod">The Founders awards</string>
+    <string name="zarejestruj_sie">Register</string>
+</resources>

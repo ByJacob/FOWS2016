@@ -1,0 +1,197 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              tools:context="pl.kebapp.byjacob.fows2016.FragmentyGlowne.Spons_Patron"
+              android:orientation="vertical"
+              android:background="@android:color/background_light">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_spons_part_gl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/sponsorzy"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textSize="44dp"
+                android:textAlignment="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/nokia"
+                android:id="@+id/imageViewNokia"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/partner_glowny"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/globallogo"
+                android:id="@+id/imageViewGlobalLogic"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:background="@color/partner_zloty"
+                android:paddingTop="5dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/partner_srebrny">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/etelogo"
+                    android:id="@+id/imageViewEtteplan"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp"
+                    android:background="@color/partner_srebrny"
+                    android:paddingTop="0dp"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/orange"
+                    android:id="@+id/imageView18"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:paddingLeft="60dp"
+                    android:paddingRight="60dp"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_spons_part_zwykli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:text="@string/patroni"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:textSize="40sp"
+                android:textAlignment="center"/>
+            <ImageView
+                android:id="@+id/imageView_belka_spons_patr_4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:srcCompat="?attr/colorControlHighlight"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/medialni1"
+                    android:id="@+id/imageView8"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/patroni2"
+                    android:id="@+id/imageView9"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+                >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/medialni2"
+                android:id="@+id/imageView11"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/potroni1"
+                android:id="@+id/imageView10"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:weightSum="1"
+                >
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/echo24"
+                    android:id="@+id/imageView13"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp"
+                    android:adjustViewBounds="true"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ministerstwologo"
+                    android:id="@+id/imageView16"
+                    android:layout_weight="0.5"
+                    android:adjustViewBounds="true"
+                    android:layout_marginRight="5dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

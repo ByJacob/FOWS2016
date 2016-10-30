@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FoWS 2016</string>
+    <string name="app_full_name">V Future of Wireless Systems</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapa2">Map</string>
+    <string name="piatek">Piątek</string>
+    <string name="sobota">Sobota</string>
+    <string name="adres">Adres</string>
+    <string name="otw_rz_w_googlemaps">Otwórz w GoogleMaps</string>
+    <string name="akcje">Akcje</string>
+    <string name="sponsorzy">SPONSORZY</string>
+    <string name="patroni">PATRONI</string>
+    <string name="przygotowana_przez">Przygotowana przez</string>
+    <string name="menu_agenda">Agenda</string>
+    <string name="menu_prelegenci">Prelegenci</string>
+    <string name="menu_sponsorzy_i_patroni">Sponsorzy i patroni</string>
+    <string name="menu_konkurs">Konkurs</string>
+    <string name="menu_mapa">Mapa</string>
+    <string name="menu_o_konferencji">o Konferencji</string>
+    <string name="menu_linki">Linki</string>
+    <string name="witamy_news">FoWS2016: Witamy :)</string>
+    <string name="error_offline">Błąd połączenia. Tryb offline.</string>
+    <string name="error_brak_plikow">Nie można uruchomić trybu offline. Brak plików lokalnych. Uruchom przynajmniej raz aplikację będąc podłączonym do internetu.</string>
+    <string name="error_title_brak_plikow">Brak plików</string>
+    <string name="error_wyjdz">Wyjdź</string>
+    <string name="error_title_brak_uprawnien">Brak uprawnień</string>
+    <string name="error_brak_uprawnien">Aplikacja wymaga tego uprawnienia do poprawnego funkcjonowania. Jeśli chcesz z niej korzystać włącz uprawnienia w Ustawienia-> Aplikacje-> FoWS2016-> Uprawnienia-> Pamięć lub uruchom ponownie aplikację.</string>
+    <string name="okonferencji_1">Konferencja Future of Wireless Systems, organizowana przez koło naukowe Wireless Group w Centrum Kongresowym Politechniki wrocławskiej, jest świetną okazją do przybliżenia zagadnień związanych z najnowszymi technikami i systemami łączności bezprzewodowe, co też udowodniły jej kolejne edycje w 2010, 2011, 2012 i 2013 przyciągając na to wydarzenie coraz to liczniejsze grono, nie tylko studentów ale również przedstawicieli firm i instytucji badawczych z branży telekomunikacyjnej.</string>
+    <string name="okonferencji_2">Już od pierwszej edycji frekwencja przerosła oczekiwania
+        organizatorów. W Future of Wireless Systems 2010 wzięło udział ponad 200 studentów! I w
+        kolejnych edycjach ta liczba stale rosła aż konferencja przekształciła się w wydarzenie
+        dwudniowe. Ciekawym elementem programu konferencji, jest panel studencki, firmy  mogą wysłuchać referatów opisujących najciekawsze badania oraz prace  inżynierskie, magisterskie i doktoranckie, wykonane przez ich  potencjalnych przyszłych pracowników.</string>
+    <string name="okonferencji_3">Dokładamy wszelkich starań, aby jakość, którą niewątpliwie wnosi  konferencja na rynek telekomunikacyjny oraz do środowiska  akademickiego, była coraz wyższa. Biorąc pod uwagę wszelkie sugestie  naszych partnerów oraz wyciągając wnioski z lat ubiegłych zapewniamy,  że V edycja Future of Wireless Systems będzie wyjątkowa oraz  pozostanie w Państwa pamięci na długo.  Gorąco zapraszamy wszystkich zainteresowanych na kolejną edycję  Future of Wireless System 2015 która stała istotnym elementem  kalendarza wydarzeń telekomunikacyjnych.</string>
+    <string name="okonferencji_fows2010">14 kwietnia\nGłównymi obszarami poruszonymi podczas pierwszej konferencji były bezprzewodowe systemy szerokopasmowe a także, perspektywy wdrożenia technologii LTE oraz WiMAX.</string>
+    <string name="okonferencji_fows2011">13-14 kwietnia\nPodczas tej edycji zostały rozszerzone tematy z roku poprzedniego ale także lista tematów urosła o m.in. Wieloantenową transmisję MIMO i anteny inteligentne.</string>
+    <string name="okonferencji_fows2012">19 kwietnia\nW tej edycji skupiliśmy się na trendach w przyszłych systemach telekomunikacyjnych takich jak mi.n. Dynamic Spectrum Access, Cognitive radio.</string>
+    <string name="okonferencji_fows2013">19 kwietnia\nTa konferencja skupiła się głównie nad nowoczesnymi trendami i rozwiązaniami w systemach bezprzewodowych oraz nowe rozwiązania (SON) w standardach grupy 3GPP.</string>
+    <string name="aktualizacja_title">Nieaktualna wersja aplikacji</string>
+    <string name="aktualizacja_message">Przykro nam, ale wygląda że masz nieaktualną wersje aplikacji. Aby w pełni korzystać z możliwości aplikacji zaktualizuj ją do najnowszej wersji w sklepie Google Play</string>
+    <string name="zapisz">Zapisz</string>
+    <string name="akceptuje">Akceptuje</string>
+    <string name="brak_internetu">Brak internetu</string>
+    <string name="nieakceptuje">Nie akceptuje</string>
+    <string name="rejstracja_mesage1">Rejestrując się potwierdzasz regulamin konkursu</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="album">E-mail</string>
+    <string name="niewypelnione_pola">Aby się zarejstrować wypełnij wszystkie pola.</string>
+    <string name="niekatywnyKonkurs_title">Konkurs nieaktywny</string>
+    <string name="nieaktywnyKonkurs_message">Konkurs aktywny podczas konferencji</string>
+    <string name="brakinternetu_message">Nie masz aktywnego połączenia z internetem. Aby wziąć udział w konkursie włącz internet oraz ponownie wejdź w zakładkę \"Konkurs\"</string>
+    <string name="zrobiony_title">Właśnie stałeś się uczestnikiem konkursu</string>
+    <string name="zrobiony_message">To urządzenie już wzieło udział w konkursie. Poczekaj na wyniki do końca konferencji.</string>
+    <string name="pytanie">Pytanie</string>
+    <string name="dziekujemy_rejstracja">Dziękujemy za rejestrację</string>
+    <string name="nieudana_rejstracja">Nieudana rejestracja :C</string>
+    <string name="konkurs_dziekujemy">Dziękujemy za udział w konkursie</string>
+    <string name="konkurs_blad">Nie można wysłać odpowiedzi. Spróbuj ponownie później.</string>
+    <string name="fundatorzy_nagrod">Fundatorzy nagród</string>
+    <string name="zarejestruj_sie">Zarejestruj się</string>
+</resources>

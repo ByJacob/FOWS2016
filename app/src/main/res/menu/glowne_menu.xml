@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/zarejestruj_sie"
+          android:id="@+id/menu_rejstracja"/>
+    <item android:title="@string/menu_agenda"
+          android:id="@+id/menu_agenda"/>
+    <item android:title="@string/menu_prelegenci"
+          android:id="@+id/menu_prelegenci"/>
+    <item android:title="@string/menu_sponsorzy_i_patroni"
+          android:id="@+id/menu_spons_patr"/>
+    <item android:title="@string/menu_konkurs"
+          android:id="@+id/menu_konkurs"/>
+    <item android:title="@string/menu_mapa"
+          android:id="@+id/menu_mapa"/>
+    <item android:title="@string/menu_o_konferencji"
+          android:id="@+id/menu_o_konferencji"/>
+    <item android:title="@string/menu_linki"
+          android:id="@+id/menu_linki"/>
+</menu>

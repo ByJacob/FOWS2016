@@ -1,0 +1,519 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="pl.kebapp.byjacob.fows2016.FragmentyGlowne.Konkurs">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:visibility="visible"
+        android:id="@+id/relativ_rejstracja">
+
+        <TextView
+            android:text="@string/zarejestruj_sie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textViewkonkurs_zarejstruj"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:textSize="44sp"
+            android:layout_margin="10dp"
+            />
+
+        <TextView
+            android:text="@string/imie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewkonkurs_zarejstruj"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textViewkonkurs_imie"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:text="@string/nazwisko"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewkonkurs_imie"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textViewkonkurs_nazwisko"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:text="@string/album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewkonkurs_nazwisko"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textViewkonkurs_album"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+            android:layout_margin="10dp"
+            android:paddingLeft="10dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextkonkurs_imie"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:layout_alignBottom="@+id/textViewkonkurs_imie"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignBaseline="@+id/textViewkonkurs_imie"
+            android:layout_toEndOf="@+id/textViewkonkurs_imie"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextkonkurs_nazwisko"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:layout_alignBottom="@+id/textViewkonkurs_nazwisko"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_alignBaseline="@+id/textViewkonkurs_nazwisko"
+            android:layout_toEndOf="@+id/textViewkonkurs_nazwisko"
+            />
+
+        <Button
+            android:text="@string/zapisz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewkonkurs_album"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/buttonkonkurs_zapisz"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonkonkurs_zapisz"
+            android:layout_marginTop="60dp"
+            android:layout_alignParentBottom="false">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+                <TextView
+                    android:text="@string/fundatorzy_nagrod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+                    android:textAlignment="center"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y11konkurs"
+                        android:id="@+id/imageView241"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y12konkurs"
+                        android:id="@+id/imageView251"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y21konkurs"
+                        android:id="@+id/imageView261"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y22konkurs"
+                        android:id="@+id/imageView271"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|fill_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y23konkurs"
+                        android:id="@+id/imageView281"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y24konkurs"
+                        android:id="@+id/imageView291"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y31konkurs"
+                        android:id="@+id/imageView301"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:foregroundGravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y32konkurs"
+                        android:id="@+id/imageView311"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y33konkurs"
+                        android:id="@+id/imageView321"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/editTextkonkurs_album"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:layout_marginRight="20dp"
+            android:layout_alignBaseline="@+id/textViewkonkurs_album"
+            android:layout_toEndOf="@+id/textViewkonkurs_album"
+            android:layout_alignParentRight="true"
+            android:inputType="text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:visibility="invisible"
+        android:id="@+id/relativ_konkurs">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fundatorzy">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+                <TextView
+                    android:text="@string/fundatorzy_nagrod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView99"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title"
+                    android:textAlignment="center"/>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y11konkurs"
+                        android:id="@+id/imageView24"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y12konkurs"
+                        android:id="@+id/imageView25"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_margin="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y21konkurs"
+                        android:id="@+id/imageView26"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y22konkurs"
+                        android:id="@+id/imageView27"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|fill_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y23konkurs"
+                        android:id="@+id/imageView28"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y24konkurs"
+                        android:id="@+id/imageView29"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y31konkurs"
+                        android:id="@+id/imageView30"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:foregroundGravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y32konkurs"
+                        android:id="@+id/imageView31"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/y33konkurs"
+                        android:id="@+id/imageView32"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/konkurs_odp1"
+                    android:layout_weight="0.5"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/konkurs_odp2"
+                    android:layout_weight="0.5"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="1"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/konkurs_odp3"
+                    android:layout_weight="0.5"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+
+                <Button
+                    android:text="Button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/konkurs_odp4"
+                    android:layout_weight="0.5"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.DropDownHint"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_vertical|center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:text="Pytanie 1/n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewkonkurs_nrPytania"
+            android:layout_below="@+id/fundatorzy"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:textSize="24sp"
+            android:paddingTop="15dp"
+            android:layout_margin="10dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:text="Pytanie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewkonkurs_nrPytania"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textViewkonkurs_pytanie"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+            android:paddingTop="15dp"
+            android:layout_margin="15dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
